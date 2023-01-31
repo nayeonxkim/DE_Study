@@ -19,8 +19,8 @@
       name VARCHAR(10) NOT NULL,
       class_number int NOT NULL,
       enrolled DATETIME NOT NULL,
-  	major VARCHAR(30) NULL,
-  	PRIMARY KEY(id)
+      major VARCHAR(30) NULL,
+      PRIMARY KEY(id)
       )
   ```
 
@@ -36,10 +36,8 @@
 
 ---
 
-- `BUK_101` 테이블의 구조를 확인하는 SQL을 작성하시오.
+- `BUK_101` 테이블의 구조를 확인하는 SQL문을 작성하시오.
   
   ```sql
   
   ```
-
-
