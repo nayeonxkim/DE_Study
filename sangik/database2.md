@@ -113,7 +113,7 @@ id INT(11) NOT NULL AUTO_INCERMENT
 
 - primary key('') : 성능적인 측면, 중복을 방지(지정한 항목이 각각 고유한 값을 가진다)
 
-        
+       * 데이터 타입이 어떤 분류로 나뉘는지* : 이진, 날짜, 숫자, 문자
 
     
 
@@ -135,7 +135,7 @@ id INT(11) NOT NULL AUTO_INCERMENT
 
 - INSERT INTO topic()(title,description,created,author,profile) VALUES()('mysql', 'mysql is ...',now(),'egoing','developer');
 
-    
+  *  ALTER TABLE 테이블명 MODIFY COLUMN 컬럼명 자료형 AFTER 다른컬럼*
 
 #### SELECT (테이블 읽기)
 
@@ -223,6 +223,8 @@ id INT(11) NOT NULL AUTO_INCERMENT
 
 - 저자 테이블만 수정하면 이를 참조하는 모든 테이블도 수정하는 효과 >유지보수에 용이
 
+*기본키를 중심으로 참조하는 건데 그것이 궁금*
+
 ##### 인터넷과 데이터 베이스
 
 - 인터넷을 위해서는 최소 컴퓨터 2대가 필요
@@ -236,3 +238,63 @@ id INT(11) NOT NULL AUTO_INCERMENT
 - 다형화 > modeling의 중요성(정규화, 비정규화 등)
 
 - 클라우드를 통해 DB 저장 가능
+
+Week1 Quiz_jeongmin
+
+### 1. 데이터베이스에서 가장 중요한 것은?
+
+CRUD (생성, 읽기, 수정, 삭제) 그 중 제일 중요한 건 생성
+
+### 2. 스키마(DB)의 사용 방법 4가지
+
+- hint. 생성, 삭제, 보기, 접속
+
+생성 : create database DB명;
+
+삭제 drop database db명
+
+조회 show databases;
+
+접속 -u 사용자명 -p
+
+### 3. 다음의 코드를 해석하시오.
+
+```sql
+SELECT id, name, major, score FROM student WHERE name = 'jeongmin' ORDER BY id;
+```
+
+학생 테이블의 , 이름이 정민인 행의 id, name, major, score 데이터가 id기준으로 오름차순으로 보여진다
+
+김나연
+
+1 2222
+
+2  1, X 5열, 4, X
+
+3 desc BUK_101
+
+노창현
+
+input c  u d
+
+out read
+
+2 set
+
+3  55 > 여러 동작 후 승인
+
+박하윤
+
+1CRUD
+
+2 44
+
+3 개별 데이터 / 구조는 컬럼
+
+이세울 
+
+1 111
+
+2 id 와 같이 정수형 데이터의 경우 자료의 수가 증가하면 자동으로 +1 해주는 것
+
+3  토픽 테이블의 저자가 egoing인 행의 id, title, author 데이터가 id 기준 오름차순으로 정렬해서 ㅂ보여준다
