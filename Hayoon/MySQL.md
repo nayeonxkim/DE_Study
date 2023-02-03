@@ -15,7 +15,10 @@
 
 스프레드시트 vs 데이터베이스(MySQL)
 
-[제목 없음](https://www.notion.so/c6650189c4d24f5186e8aaee07695712)
+|  | 스프레드시트 | 데이터베이스 |
+| --- | --- | --- |
+| 공통점 | 표의 형태 | 표의 형태 |
+| 차이점 | 클릭, 클릭, 클릭, 클릭··· | 컴퓨터 언어로 제어가능 |
 
 ### 2. MySQL 구조
 
@@ -201,3 +204,7 @@ TABLE ⊂ DATABASE(SCHEMA) ⊂ DATA SERVER
 데이터를 안전하게 보관
 
 클라우드를 통해 DB 저장
+
+[Quiz_박하윤](https://www.notion.so/Quiz_-01727df1c27c4d6f8114eebcc8bca590)
+
+[Answer_박하윤](https://www.notion.so/Answer_-a35c6fc62928471e8825f71b9421d393)
