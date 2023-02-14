@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Nayeon
- *
- */
-module Java {
-}
