@@ -371,7 +371,7 @@ int b = (int)100.0F;
 
 #### 산술연산자
 
--  수학적인 계산에 사용되는 연산자
+- 수학적인 계산에 사용되는 연산자
 
 - (+, 더하기), (-, 빼기), (*, 곱하기), (/,나누기), (%, 나머지)
 
@@ -381,19 +381,19 @@ public class ArithmeticDemo  {
         // result 의 값은 3
         int result = 1 + 2;
         System.out.println(result); // 3
-  
+
         // result 의 값은 2
         result = result - 1;
         System.out.println(result); // 2
-  
+
         // result 의 값은 4
         result = result * 2;
         System.out.println(result); // 4
-  
+
         // result 의 값은 2
         result = result / 2;
         System.out.println(result); // 2
-  
+
         // result 의 값은 10
         result = result + 8;
         // result 의 값은 3
@@ -437,20 +437,20 @@ class ConcatDemo {
 
 ```java
 public class DivisionDemo {
-      
+
     public static void main(String[] args) {
         int a = 10;
         int b = 3;
-          
+
         float c = 10.0F;
         float d = 3.0F;
-          
+
         System.out.println(a/b);  // 3
         System.out.println(c/d);  // 3.33333
         System.out.println(a/d);  // 3.33333
-          
+
     }
-  
+
 }
 ```
 
@@ -470,7 +470,7 @@ public class DivisionDemo {
 
 ```java
 package org.opentutorials.javatutorials.operator;
- 
+
 public class PrePostDemo {
     public static void main(String[] args) {
         int i = 3;
@@ -509,16 +509,16 @@ public class PrePostDemo {
 
 ```java
 package org.opentutorials.javatutorials.compare;
- 
+
 public class EqualDemo {
- 
+
     public static void main(String[] args) {
         System.out.println(1==2);           //false
         System.out.println(1==1);           //true
         System.out.println("one"=="two");   //false
         System.out.println("one"=="one");   //true
     }
- 
+
 }
 ```
 
@@ -526,16 +526,16 @@ public class EqualDemo {
 
 ```java
 package org.opentutorials.javatutorials.compare;
- 
+
 public class NotDemo {
- 
+
     public static void main(String[] args) {
         System.out.println(1!=2);           //true
         System.out.println(1!=1);           //false
         System.out.println("one"!="two");   //true  
         System.out.println("one"!="one");   //false
     }
-     
+
 }
 ```
 
@@ -543,14 +543,14 @@ public class NotDemo {
 
 ```java
 public class GreaterThanDemo {
- 
+
     public static void main(String[] args) {
         System.out.println(10>20);       //false
         System.out.println(10>2);            //true
         System.out.println(10>10);           //false
- 
+
     }
- 
+
 }
 ```
 
@@ -558,15 +558,15 @@ public class GreaterThanDemo {
 
 ```java
 public class GreaterThanOrEqualDemo {
- 
+
     public static void main(String[] args) {
- 
+
         System.out.println(10 >= 20); // false
         System.out.println(10 >= 2); // true
         System.out.println(10 >= 10); // true
- 
+
     }
- 
+
 }
 ```
 
@@ -574,16 +574,16 @@ public class GreaterThanOrEqualDemo {
 
 ```java
 package org.opentutorials.javatutorials.compare;
- 
+
 public class EqualStringDemo {
- 
+
     public static void main(String[] args) {
         String a = "Hello world";
         String b = new String("Hello world");
         System.out.println(a == b);
         System.out.println(a.equals(b));
     }
- 
+
 }
 ```
 
